@@ -1,0 +1,43 @@
+<div class="container col-lg-12 col-md-12 col-sm-12">
+  <div class="container text-center col-md-12 col-sm-12">
+    <img src="/assets/MilkTea.png" style="width: 60%">
+  </div>
+
+  <div id="image" class="container text-center col-md-12 col-sm-12">
+    <img id="image" style="width:250px; height:444px" src="/assets/boba.gif" />
+  </div>
+
+<!-- <div class="container text-center">
+  <img src="/assets/MilkTea.png">
+</div>
+
+<div id="image" class="container text-center">
+  <img id="image" style="width:250px; height:450px" src="/assets/boba.gif" />
+</div> -->
+
+  <div class="container text-center map-container">
+    <div id="map"></div>
+  </div>
+
+  <br>
+
+  <div class="container address-table" id="addresses"></div>
+  <br>
+</div>
+
+<div id="boba-near" class="text-center">
+  <button class="btn btn-primary">Boba Locations Near Me</button>
+</div>
+<br>
+<div class="text-center">
+<button class="btn btn-primary" id="flip" class="text-center">
+  Boba Locations Near Address
+</button>
+<div id="boba-near" class="text-center">
+
+<div id="panel">
+  <form name="ajaxform" id="ajaxform" action="/address" method="POST">
+    <input type="text" name="location"><br><br>
+    <input type="submit" id="submitButton" name="submitButton" value="Submit">
+  </form>
+</div>
